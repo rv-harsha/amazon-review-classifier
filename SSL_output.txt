@@ -1,0 +1,534 @@
+(base) harsha@MacBook-Pro code % python semi-supervised-learning.py
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/harsha/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Supervised SGDClassifier on 100% of the data:
+Number of training samples: 57482
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.790
+----------
+
+Supervised SGDClassifier on 2.0% of the training data:
+Number of training samples: 1149
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.752
+----------
+
+SelfTrainingClassifier on 2.0% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 56333
+End of iteration 1, added 50403 new labels.
+End of iteration 2, added 1829 new labels.
+End of iteration 3, added 281 new labels.
+End of iteration 4, added 47 new labels.
+End of iteration 5, added 219 new labels.
+End of iteration 6, added 15 new labels.
+End of iteration 7, added 10 new labels.
+End of iteration 8, added 647 new labels.
+End of iteration 9, added 360 new labels.
+End of iteration 10, added 5 new labels.
+Micro-averaged F1 score on test set: 0.762
+----------
+
+Supervised SGDClassifier on 4.416666666666667% of the training data:
+Number of training samples: 2538
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.753
+----------
+
+SelfTrainingClassifier on 4.416666666666667% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 54944
+End of iteration 1, added 48293 new labels.
+End of iteration 2, added 3923 new labels.
+End of iteration 3, added 82 new labels.
+End of iteration 4, added 391 new labels.
+End of iteration 5, added 408 new labels.
+End of iteration 6, added 68 new labels.
+End of iteration 7, added 3 new labels.
+End of iteration 8, added 760 new labels.
+End of iteration 9, added 1 new labels.
+End of iteration 10, added 26 new labels.
+Micro-averaged F1 score on test set: 0.770
+----------
+
+Supervised SGDClassifier on 6.833333333333333% of the training data:
+Number of training samples: 3927
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.774
+----------
+
+SelfTrainingClassifier on 6.833333333333333% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 53555
+End of iteration 1, added 41722 new labels.
+End of iteration 2, added 4987 new labels.
+End of iteration 3, added 2444 new labels.
+End of iteration 4, added 1813 new labels.
+End of iteration 5, added 14 new labels.
+End of iteration 6, added 5 new labels.
+End of iteration 7, added 9 new labels.
+End of iteration 8, added 51 new labels.
+End of iteration 9, added 1 new labels.
+End of iteration 10, added 21 new labels.
+Micro-averaged F1 score on test set: 0.782
+----------
+
+Supervised SGDClassifier on 9.25% of the training data:
+Number of training samples: 5317
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.776
+----------
+
+SelfTrainingClassifier on 9.25% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 52165
+End of iteration 1, added 42980 new labels.
+End of iteration 2, added 6041 new labels.
+End of iteration 3, added 312 new labels.
+End of iteration 4, added 1789 new labels.
+End of iteration 5, added 260 new labels.
+End of iteration 6, added 2 new labels.
+End of iteration 7, added 6 new labels.
+End of iteration 8, added 1 new labels.
+End of iteration 9, added 6 new labels.
+Micro-averaged F1 score on test set: 0.758
+----------
+
+Supervised SGDClassifier on 11.666666666666666% of the training data:
+Number of training samples: 6706
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.777
+----------
+
+SelfTrainingClassifier on 11.666666666666666% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 50776
+End of iteration 1, added 38879 new labels.
+End of iteration 2, added 6587 new labels.
+End of iteration 3, added 2207 new labels.
+End of iteration 4, added 1243 new labels.
+End of iteration 5, added 16 new labels.
+End of iteration 6, added 9 new labels.
+End of iteration 7, added 664 new labels.
+End of iteration 8, added 271 new labels.
+End of iteration 9, added 31 new labels.
+Micro-averaged F1 score on test set: 0.764
+----------
+
+Supervised SGDClassifier on 14.083333333333334% of the training data:
+Number of training samples: 8095
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.788
+----------
+
+SelfTrainingClassifier on 14.083333333333334% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 49387
+End of iteration 1, added 36360 new labels.
+End of iteration 2, added 7950 new labels.
+End of iteration 3, added 1691 new labels.
+End of iteration 4, added 712 new labels.
+End of iteration 5, added 1282 new labels.
+End of iteration 6, added 16 new labels.
+End of iteration 7, added 20 new labels.
+End of iteration 8, added 4 new labels.
+End of iteration 9, added 26 new labels.
+End of iteration 10, added 4 new labels.
+Micro-averaged F1 score on test set: 0.762
+----------
+
+Supervised SGDClassifier on 16.499999999999996% of the training data:
+Number of training samples: 9484
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.781
+----------
+
+SelfTrainingClassifier on 16.499999999999996% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 47998
+End of iteration 1, added 38357 new labels.
+End of iteration 2, added 4078 new labels.
+End of iteration 3, added 2365 new labels.
+End of iteration 4, added 827 new labels.
+End of iteration 5, added 460 new labels.
+End of iteration 6, added 331 new labels.
+End of iteration 7, added 256 new labels.
+End of iteration 8, added 6 new labels.
+End of iteration 9, added 200 new labels.
+End of iteration 10, added 39 new labels.
+Micro-averaged F1 score on test set: 0.759
+----------
+
+Supervised SGDClassifier on 18.916666666666664% of the training data:
+Number of training samples: 10873
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.790
+----------
+
+SelfTrainingClassifier on 18.916666666666664% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 46609
+End of iteration 1, added 33944 new labels.
+End of iteration 2, added 6186 new labels.
+End of iteration 3, added 2546 new labels.
+End of iteration 4, added 906 new labels.
+End of iteration 5, added 685 new labels.
+End of iteration 6, added 125 new labels.
+End of iteration 7, added 984 new labels.
+End of iteration 8, added 8 new labels.
+End of iteration 9, added 1 new labels.
+End of iteration 10, added 33 new labels.
+Micro-averaged F1 score on test set: 0.768
+----------
+
+Supervised SGDClassifier on 21.333333333333332% of the training data:
+Number of training samples: 12262
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.793
+----------
+
+SelfTrainingClassifier on 21.333333333333332% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 45220
+End of iteration 1, added 35980 new labels.
+End of iteration 2, added 6143 new labels.
+End of iteration 3, added 217 new labels.
+End of iteration 4, added 1318 new labels.
+End of iteration 5, added 568 new labels.
+End of iteration 6, added 427 new labels.
+End of iteration 7, added 82 new labels.
+End of iteration 8, added 155 new labels.
+End of iteration 9, added 33 new labels.
+End of iteration 10, added 2 new labels.
+Micro-averaged F1 score on test set: 0.749
+----------
+
+Supervised SGDClassifier on 23.75% of the training data:
+Number of training samples: 13651
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.786
+----------
+
+SelfTrainingClassifier on 23.75% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 43831
+End of iteration 1, added 28835 new labels.
+End of iteration 2, added 10045 new labels.
+End of iteration 3, added 679 new labels.
+End of iteration 4, added 934 new labels.
+End of iteration 5, added 843 new labels.
+End of iteration 6, added 450 new labels.
+End of iteration 7, added 4 new labels.
+End of iteration 8, added 5 new labels.
+End of iteration 9, added 33 new labels.
+End of iteration 10, added 114 new labels.
+Micro-averaged F1 score on test set: 0.782
+----------
+
+Supervised SGDClassifier on 26.166666666666664% of the training data:
+Number of training samples: 15041
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.802
+----------
+
+SelfTrainingClassifier on 26.166666666666664% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 42441
+End of iteration 1, added 24748 new labels.
+End of iteration 2, added 9723 new labels.
+End of iteration 3, added 3568 new labels.
+End of iteration 4, added 135 new labels.
+End of iteration 5, added 486 new labels.
+End of iteration 6, added 52 new labels.
+Micro-averaged F1 score on test set: 0.792
+----------
+
+Supervised SGDClassifier on 28.583333333333332% of the training data:
+Number of training samples: 16430
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.794
+----------
+
+SelfTrainingClassifier on 28.583333333333332% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 41052
+End of iteration 1, added 31866 new labels.
+End of iteration 2, added 2607 new labels.
+End of iteration 3, added 2167 new labels.
+End of iteration 4, added 124 new labels.
+End of iteration 5, added 1250 new labels.
+End of iteration 6, added 1533 new labels.
+End of iteration 7, added 121 new labels.
+End of iteration 8, added 15 new labels.
+End of iteration 9, added 330 new labels.
+Micro-averaged F1 score on test set: 0.770
+----------
+
+Supervised SGDClassifier on 31.0% of the training data:
+Number of training samples: 17819
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.801
+----------
+
+SelfTrainingClassifier on 31.0% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 39663
+End of iteration 1, added 29895 new labels.
+End of iteration 2, added 3473 new labels.
+End of iteration 3, added 2238 new labels.
+End of iteration 4, added 203 new labels.
+End of iteration 5, added 127 new labels.
+End of iteration 6, added 23 new labels.
+End of iteration 7, added 596 new labels.
+End of iteration 8, added 15 new labels.
+End of iteration 9, added 348 new labels.
+End of iteration 10, added 10 new labels.
+Micro-averaged F1 score on test set: 0.787
+----------
+
+Supervised SGDClassifier on 33.416666666666664% of the training data:
+Number of training samples: 19208
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.802
+----------
+
+SelfTrainingClassifier on 33.416666666666664% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 38274
+End of iteration 1, added 27920 new labels.
+End of iteration 2, added 5412 new labels.
+End of iteration 3, added 188 new labels.
+End of iteration 4, added 1350 new labels.
+End of iteration 5, added 506 new labels.
+End of iteration 6, added 75 new labels.
+End of iteration 7, added 69 new labels.
+End of iteration 8, added 242 new labels.
+End of iteration 9, added 4 new labels.
+End of iteration 10, added 2 new labels.
+Micro-averaged F1 score on test set: 0.771
+----------
+
+Supervised SGDClassifier on 35.833333333333336% of the training data:
+Number of training samples: 20597
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.801
+----------
+
+SelfTrainingClassifier on 35.833333333333336% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 36885
+End of iteration 1, added 32115 new labels.
+End of iteration 2, added 701 new labels.
+End of iteration 3, added 1230 new labels.
+End of iteration 4, added 71 new labels.
+End of iteration 5, added 28 new labels.
+End of iteration 6, added 22 new labels.
+End of iteration 7, added 132 new labels.
+End of iteration 8, added 1 new labels.
+End of iteration 9, added 43 new labels.
+End of iteration 10, added 106 new labels.
+Micro-averaged F1 score on test set: 0.770
+----------
+
+Supervised SGDClassifier on 38.25% of the training data:
+Number of training samples: 21986
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.788
+----------
+
+SelfTrainingClassifier on 38.25% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 35496
+End of iteration 1, added 27486 new labels.
+End of iteration 2, added 3358 new labels.
+End of iteration 3, added 827 new labels.
+End of iteration 4, added 672 new labels.
+End of iteration 5, added 952 new labels.
+End of iteration 6, added 18 new labels.
+End of iteration 7, added 34 new labels.
+End of iteration 8, added 209 new labels.
+End of iteration 9, added 3 new labels.
+End of iteration 10, added 59 new labels.
+Micro-averaged F1 score on test set: 0.773
+----------
+
+Supervised SGDClassifier on 40.666666666666664% of the training data:
+Number of training samples: 23376
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.794
+----------
+
+SelfTrainingClassifier on 40.666666666666664% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 34106
+End of iteration 1, added 25545 new labels.
+End of iteration 2, added 4791 new labels.
+End of iteration 3, added 590 new labels.
+End of iteration 4, added 107 new labels.
+End of iteration 5, added 572 new labels.
+End of iteration 6, added 664 new labels.
+Micro-averaged F1 score on test set: 0.772
+----------
+
+Supervised SGDClassifier on 43.083333333333336% of the training data:
+Number of training samples: 24765
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.798
+----------
+
+SelfTrainingClassifier on 43.083333333333336% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 32717
+End of iteration 1, added 28093 new labels.
+End of iteration 2, added 450 new labels.
+End of iteration 3, added 236 new labels.
+End of iteration 4, added 40 new labels.
+End of iteration 5, added 151 new labels.
+End of iteration 6, added 45 new labels.
+End of iteration 7, added 12 new labels.
+End of iteration 8, added 122 new labels.
+End of iteration 9, added 3 new labels.
+End of iteration 10, added 388 new labels.
+Micro-averaged F1 score on test set: 0.782
+----------
+
+Supervised SGDClassifier on 45.5% of the training data:
+Number of training samples: 26154
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.802
+----------
+
+SelfTrainingClassifier on 45.5% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 31328
+End of iteration 1, added 23123 new labels.
+End of iteration 2, added 2193 new labels.
+End of iteration 3, added 389 new labels.
+End of iteration 4, added 132 new labels.
+End of iteration 5, added 1566 new labels.
+End of iteration 6, added 50 new labels.
+End of iteration 7, added 19 new labels.
+End of iteration 8, added 218 new labels.
+End of iteration 9, added 249 new labels.
+End of iteration 10, added 174 new labels.
+Micro-averaged F1 score on test set: 0.781
+----------
+
+Supervised SGDClassifier on 47.91666666666667% of the training data:
+Number of training samples: 27543
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.788
+----------
+
+SelfTrainingClassifier on 47.91666666666667% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 29939
+End of iteration 1, added 21926 new labels.
+End of iteration 2, added 3330 new labels.
+End of iteration 3, added 1241 new labels.
+End of iteration 4, added 25 new labels.
+End of iteration 5, added 61 new labels.
+End of iteration 6, added 863 new labels.
+End of iteration 7, added 1 new labels.
+End of iteration 8, added 13 new labels.
+Micro-averaged F1 score on test set: 0.790
+----------
+
+Supervised SGDClassifier on 50.33333333333333% of the training data:
+Number of training samples: 28932
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.799
+----------
+
+SelfTrainingClassifier on 50.33333333333333% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 28550
+End of iteration 1, added 23051 new labels.
+End of iteration 2, added 2729 new labels.
+End of iteration 3, added 122 new labels.
+End of iteration 4, added 26 new labels.
+End of iteration 5, added 45 new labels.
+End of iteration 6, added 14 new labels.
+End of iteration 7, added 30 new labels.
+End of iteration 8, added 44 new labels.
+End of iteration 9, added 99 new labels.
+End of iteration 10, added 1 new labels.
+Micro-averaged F1 score on test set: 0.790
+----------
+
+Supervised SGDClassifier on 52.75% of the training data:
+Number of training samples: 30321
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.800
+----------
+
+SelfTrainingClassifier on 52.75% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 27161
+End of iteration 1, added 20323 new labels.
+End of iteration 2, added 680 new labels.
+End of iteration 3, added 1129 new labels.
+End of iteration 4, added 2818 new labels.
+End of iteration 5, added 4 new labels.
+End of iteration 6, added 3 new labels.
+End of iteration 7, added 44 new labels.
+Micro-averaged F1 score on test set: 0.792
+----------
+
+Supervised SGDClassifier on 55.166666666666664% of the training data:
+Number of training samples: 31710
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.804
+----------
+
+SelfTrainingClassifier on 55.166666666666664% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 25772
+End of iteration 1, added 18598 new labels.
+End of iteration 2, added 2292 new labels.
+End of iteration 3, added 2091 new labels.
+End of iteration 4, added 25 new labels.
+End of iteration 5, added 2 new labels.
+End of iteration 6, added 10 new labels.
+End of iteration 7, added 186 new labels.
+Micro-averaged F1 score on test set: 0.780
+----------
+
+Supervised SGDClassifier on 57.58333333333333% of the training data:
+Number of training samples: 33100
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.781
+----------
+
+SelfTrainingClassifier on 57.58333333333333% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 24382
+End of iteration 1, added 17524 new labels.
+End of iteration 2, added 2118 new labels.
+End of iteration 3, added 489 new labels.
+End of iteration 4, added 168 new labels.
+End of iteration 5, added 1157 new labels.
+End of iteration 6, added 43 new labels.
+Micro-averaged F1 score on test set: 0.786
+----------
+
+Supervised SGDClassifier on 60.0% of the training data:
+Number of training samples: 34489
+Unlabeled samples in training set: 0
+Micro-averaged F1 score on test set: 0.803
+----------
+
+SelfTrainingClassifier on 60.0% of the training data (rest is unlabeled):
+Number of training samples: 57482
+Unlabeled samples in training set: 22993
+End of iteration 1, added 17714 new labels.
+End of iteration 2, added 2209 new labels.
+End of iteration 3, added 40 new labels.
+End of iteration 4, added 137 new labels.
+End of iteration 5, added 54 new labels.
+End of iteration 6, added 21 new labels.
+End of iteration 7, added 613 new labels.
+End of iteration 8, added 451 new labels.
+Micro-averaged F1 score on test set: 0.787
+----------

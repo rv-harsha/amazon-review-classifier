@@ -1,0 +1,407 @@
+Training a LogisticRegression using a training set size of 10000. . .
+Trained model in 1.3591 seconds
+Made predictions in 0.0102 seconds.
+ROC_AUC score for training set: 0.8107.
+Made predictions in 0.0099 seconds.
+ROC_AUC score for test set: 0.7703.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.34      0.72      0.46      1417
+           1       0.92      0.69      0.79      6422
+
+    accuracy                           0.70      7839
+   macro avg       0.63      0.71      0.63      7839
+weighted avg       0.81      0.70      0.73      7839
+
+Training a LogisticRegression using a training set size of 20000. . .
+Trained model in 0.8326 seconds
+Made predictions in 0.0090 seconds.
+ROC_AUC score for training set: 0.8021.
+Made predictions in 0.0032 seconds.
+ROC_AUC score for test set: 0.7831.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.35      0.73      0.48      1417
+           1       0.92      0.70      0.80      6422
+
+    accuracy                           0.71      7839
+   macro avg       0.64      0.72      0.64      7839
+weighted avg       0.82      0.71      0.74      7839
+
+Training a LogisticRegression using a training set size of 40000. . .
+Trained model in 0.9100 seconds
+Made predictions in 0.0157 seconds.
+ROC_AUC score for training set: 0.8031.
+Made predictions in 0.0042 seconds.
+ROC_AUC score for test set: 0.7913.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.36      0.75      0.49      1417
+           1       0.93      0.71      0.80      6422
+
+    accuracy                           0.71      7839
+   macro avg       0.64      0.73      0.64      7839
+weighted avg       0.83      0.71      0.74      7839
+
+Training a LogisticRegression using a training set size of 57482. . .
+Trained model in 3.0279 seconds
+Made predictions in 0.0216 seconds.
+ROC_AUC score for training set: 0.8046.
+Made predictions in 0.0042 seconds.
+ROC_AUC score for test set: 0.7947.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.36      0.75      0.49      1417
+           1       0.93      0.71      0.80      6422
+
+    accuracy                           0.72      7839
+   macro avg       0.65      0.73      0.65      7839
+weighted avg       0.83      0.72      0.75      7839
+
+Training a GaussianNB using a training set size of 10000. . .
+Trained model in 0.0644 seconds
+Made predictions in 0.0489 seconds.
+ROC_AUC score for training set: 0.7806.
+Made predictions in 0.0255 seconds.
+ROC_AUC score for test set: 0.6672.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.29      0.58      0.38      1417
+           1       0.88      0.68      0.77      6422
+
+    accuracy                           0.66      7839
+   macro avg       0.58      0.63      0.58      7839
+weighted avg       0.77      0.66      0.70      7839
+
+Training a GaussianNB using a training set size of 20000. . .
+Trained model in 0.2087 seconds
+Made predictions in 0.2921 seconds.
+ROC_AUC score for training set: 0.7500.
+Made predictions in 0.0373 seconds.
+ROC_AUC score for test set: 0.6826.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.29      0.63      0.40      1417
+           1       0.89      0.67      0.76      6422
+
+    accuracy                           0.66      7839
+   macro avg       0.59      0.65      0.58      7839
+weighted avg       0.78      0.66      0.70      7839
+
+Training a GaussianNB using a training set size of 40000. . .
+Trained model in 0.4215 seconds
+Made predictions in 0.5306 seconds.
+ROC_AUC score for training set: 0.7371.
+Made predictions in 0.0248 seconds.
+ROC_AUC score for test set: 0.6993.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.30      0.66      0.41      1417
+           1       0.90      0.65      0.76      6422
+
+    accuracy                           0.66      7839
+   macro avg       0.60      0.66      0.58      7839
+weighted avg       0.79      0.66      0.69      7839
+
+Training a GaussianNB using a training set size of 57482. . .
+Trained model in 0.5757 seconds
+Made predictions in 0.7789 seconds.
+ROC_AUC score for training set: 0.7325.
+Made predictions in 0.0263 seconds.
+ROC_AUC score for test set: 0.7024.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.30      0.67      0.41      1417
+           1       0.90      0.65      0.75      6422
+
+    accuracy                           0.65      7839
+   macro avg       0.60      0.66      0.58      7839
+weighted avg       0.79      0.65      0.69      7839
+
+Training a DecisionTreeClassifier using a training set size of 10000. . .
+Trained model in 0.0488 seconds
+Made predictions in 0.0068 seconds.
+ROC_AUC score for training set: 0.6871.
+Made predictions in 0.0130 seconds.
+ROC_AUC score for test set: 0.6679.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.55      0.04      0.08      1417
+           1       0.82      0.99      0.90      6422
+
+    accuracy                           0.82      7839
+   macro avg       0.69      0.52      0.49      7839
+weighted avg       0.78      0.82      0.75      7839
+
+Training a DecisionTreeClassifier using a training set size of 20000. . .
+Trained model in 0.1042 seconds
+Made predictions in 0.0129 seconds.
+ROC_AUC score for training set: 0.6687.
+Made predictions in 0.0068 seconds.
+ROC_AUC score for test set: 0.6570.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.60      0.02      0.03      1417
+           1       0.82      1.00      0.90      6422
+
+    accuracy                           0.82      7839
+   macro avg       0.71      0.51      0.47      7839
+weighted avg       0.78      0.82      0.74      7839
+
+Training a DecisionTreeClassifier using a training set size of 40000. . .
+Trained model in 0.2577 seconds
+Made predictions in 0.0675 seconds.
+ROC_AUC score for training set: 0.6687.
+Made predictions in 0.0058 seconds.
+ROC_AUC score for test set: 0.6665.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.56      0.02      0.03      1417
+           1       0.82      1.00      0.90      6422
+
+    accuracy                           0.82      7839
+   macro avg       0.69      0.51      0.47      7839
+weighted avg       0.77      0.82      0.74      7839
+
+Training a DecisionTreeClassifier using a training set size of 57482. . .
+Trained model in 0.3714 seconds
+Made predictions in 0.0941 seconds.
+ROC_AUC score for training set: 0.6619.
+Made predictions in 0.0051 seconds.
+ROC_AUC score for test set: 0.6629.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.55      0.02      0.03      1417
+           1       0.82      1.00      0.90      6422
+
+    accuracy                           0.82      7839
+   macro avg       0.69      0.51      0.47      7839
+weighted avg       0.77      0.82      0.74      7839
+
+Training a RandomForestClassifier using a training set size of 10000. . .
+Trained model in 1.5946 seconds
+Made predictions in 0.1347 seconds.
+ROC_AUC score for training set: 0.9735.
+Made predictions in 0.1183 seconds.
+ROC_AUC score for test set: 0.7669.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.80      0.01      0.02      1417
+           1       0.82      1.00      0.90      6422
+
+    accuracy                           0.82      7839
+   macro avg       0.81      0.51      0.46      7839
+weighted avg       0.82      0.82      0.74      7839
+
+Training a RandomForestClassifier using a training set size of 20000. . .
+Trained model in 3.5766 seconds
+Made predictions in 0.2087 seconds.
+ROC_AUC score for training set: 0.9474.
+Made predictions in 0.1190 seconds.
+ROC_AUC score for test set: 0.7745.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.79      0.01      0.02      1417
+           1       0.82      1.00      0.90      6422
+
+    accuracy                           0.82      7839
+   macro avg       0.81      0.50      0.46      7839
+weighted avg       0.82      0.82      0.74      7839
+
+Training a RandomForestClassifier using a training set size of 40000. . .
+Trained model in 8.9886 seconds
+Made predictions in 0.4796 seconds.
+ROC_AUC score for training set: 0.9138.
+Made predictions in 0.1195 seconds.
+ROC_AUC score for test set: 0.7793.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.86      0.01      0.02      1417
+           1       0.82      1.00      0.90      6422
+
+    accuracy                           0.82      7839
+   macro avg       0.84      0.50      0.46      7839
+weighted avg       0.83      0.82      0.74      7839
+
+Training a RandomForestClassifier using a training set size of 57482. . .
+Trained model in 12.7060 seconds
+Made predictions in 0.6421 seconds.
+ROC_AUC score for training set: 0.8997.
+Made predictions in 0.1168 seconds.
+ROC_AUC score for test set: 0.7776.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.01      0.02      1417
+           1       0.82      1.00      0.90      6422
+
+    accuracy                           0.82      7839
+   macro avg       0.91      0.50      0.46      7839
+weighted avg       0.85      0.82      0.74      7839
+
+Training a AdaBoostClassifier using a training set size of 10000. . .
+Trained model in 8.0800 seconds
+Made predictions in 0.4410 seconds.
+ROC_AUC score for training set: 0.7322.
+Made predictions in 0.3477 seconds.
+ROC_AUC score for test set: 0.7273.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.63      0.01      0.02      1417
+           1       0.82      1.00      0.90      6422
+
+    accuracy                           0.82      7839
+   macro avg       0.73      0.50      0.46      7839
+weighted avg       0.79      0.82      0.74      7839
+
+Training a AdaBoostClassifier using a training set size of 20000. . .
+Trained model in 18.8804 seconds
+Made predictions in 0.8720 seconds.
+ROC_AUC score for training set: 0.7345.
+Made predictions in 0.3522 seconds.
+ROC_AUC score for test set: 0.7347.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00      1417
+           1       0.82      1.00      0.90      6422
+
+    accuracy                           0.82      7839
+   macro avg       0.41      0.50      0.45      7839
+weighted avg       0.67      0.82      0.74      7839
+
+Training a AdaBoostClassifier using a training set size of 40000. . .
+Trained model in 50.5114 seconds
+Made predictions in 5.2350 seconds.
+ROC_AUC score for training set: 0.7358.
+Made predictions in 0.3643 seconds.
+ROC_AUC score for test set: 0.7381.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00      1417
+           1       0.82      1.00      0.90      6422
+
+    accuracy                           0.82      7839
+   macro avg       0.41      0.50      0.45      7839
+weighted avg       0.67      0.82      0.74      7839
+
+Training a AdaBoostClassifier using a training set size of 57482. . .
+Trained model in 74.1025 seconds
+Made predictions in 8.1774 seconds.
+ROC_AUC score for training set: 0.7395.
+Made predictions in 0.3793 seconds.
+ROC_AUC score for test set: 0.7408.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.50      0.00      0.00      1417
+           1       0.82      1.00      0.90      6422
+
+    accuracy                           0.82      7839
+   macro avg       0.66      0.50      0.45      7839
+weighted avg       0.76      0.82      0.74      7839
+
+Training a SGDClassifier using a training set size of 10000. . .
+Trained model in 0.3242 seconds
+Made predictions in 0.0037 seconds.
+ROC_AUC score for training set: 0.8391.
+Made predictions in 0.0030 seconds.
+ROC_AUC score for test set: 0.7631.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.52      0.23      0.32      1417
+           1       0.85      0.95      0.90      6422
+
+    accuracy                           0.82      7839
+   macro avg       0.68      0.59      0.61      7839
+weighted avg       0.79      0.82      0.79      7839
+
+Training a SGDClassifier using a training set size of 20000. . .
+Trained model in 0.6007 seconds
+Made predictions in 0.0062 seconds.
+ROC_AUC score for training set: 0.8133.
+Made predictions in 0.0045 seconds.
+ROC_AUC score for test set: 0.7803.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.59      0.14      0.23      1417
+           1       0.84      0.98      0.90      6422
+
+    accuracy                           0.83      7839
+   macro avg       0.71      0.56      0.57      7839
+weighted avg       0.79      0.83      0.78      7839
+
+Training a SGDClassifier using a training set size of 40000. . .
+Trained model in 0.8773 seconds
+Made predictions in 0.0116 seconds.
+ROC_AUC score for training set: 0.8055.
+Made predictions in 0.0032 seconds.
+ROC_AUC score for test set: 0.7917.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.58      0.14      0.23      1417
+           1       0.84      0.98      0.90      6422
+
+    accuracy                           0.83      7839
+   macro avg       0.71      0.56      0.57      7839
+weighted avg       0.79      0.83      0.78      7839
+
+Training a SGDClassifier using a training set size of 57482. . .
+Trained model in 1.2729 seconds
+Made predictions in 0.0186 seconds.
+ROC_AUC score for training set: 0.8045.
+Made predictions in 0.0032 seconds.
+ROC_AUC score for test set: 0.7943.
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.65      0.08      0.14      1417
+           1       0.83      0.99      0.90      6422
+
+    accuracy                           0.83      7839
+   macro avg       0.74      0.54      0.52      7839
+weighted avg       0.80      0.83      0.77      7839
